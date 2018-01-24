@@ -1,0 +1,561 @@
+    1  pwd
+    2  ls
+    3  cd Git\ Trining/
+    4  git clone https://github.com/dh-chandu/training.git
+    5  ls
+    6  cd training/
+    7  ls
+    8  git states
+    9  git status
+   10  git fetch 
+   11  ls
+   12  ll
+   13  git fetch .
+   14  git branch
+   15  ls
+   16  git pull
+   17  ls
+   18  git log
+   19  ls
+   20  cd source/
+   21  ls
+   22  cat >> hello_185
+   23  cat hello_185
+   24  ls
+   25  cat >> hello_168.c 
+   26  ls
+   27  git add hello_185
+   28  git commit -m "new file created"
+   29  git config --global user.email "manjudhv@gmal.com"
+   30  git config --global user.name "manjudhv1"
+   31  git commit -m "new file created"
+   32  git push
+   33  git commit -m "new file created"
+   34  git add hello_168.c 
+   35  git commit -m "new file created"
+   36  git diff
+   37  git status
+   38  git log
+   39  git log -p -1
+   40  git log -p -2
+   41  git log -p -3
+   42  git log -p -5
+   43  ls
+   44  git push
+   45  git log
+   46  ls
+   47  ll
+   48  git push
+   49  git config --global --list
+   50  git config --global user.email "manjudhv@gmail.com"
+   51  git push\
+   52  git push
+   53  git config --global --list
+   54  git push
+   55  git pull
+   56  git push
+   57  ls
+   58  cat >> hello_185
+   59  git diff
+   60  git add hello_185 
+   61  git log
+   62  git commit -m " modified"
+   63  git push
+   64  ls
+   65  rm hello_150.c hello_14.c 
+   66  ls
+   67  git push
+   68  cat hellozzz
+   69  touch hellozzz
+   70  cat >> hellozzz 
+   71  git push
+   72  ls
+   73  git add hellozzz 
+   74  git commit -m "added file"
+   75  cat >> hello_185.c
+   76  git diff
+   77  git add hello_185.c
+   78  git commit -m "Changed something"
+   79  git push
+   80  git log -p -1
+   81  git show <commit>
+   82  git show <COMMIT>
+   83  sudo apt-get update
+   84  sudo apt-get upgrade
+   85  sudo apt-get install git
+   86  git
+   87  which git
+   88  ls
+   89  mkdir git_myself
+   90  cd git_myself/
+   91  ls
+   92  which git
+   93  cd /usr/bin/git
+   94  cd /usr/bin/
+   95  ls
+   96  ls | git
+   97  ls | grep git
+   98  cd -
+   99  ls
+  100  cd -
+  101  cd ..
+  102  ls
+  103  cd 
+  104  ls
+  105  cd -
+  106  ls
+  107  cd ..
+  108  ls
+  109  pwd
+  110  cd etc/
+  111  ls
+  112  more ls
+  113  ls | more
+  114  cleaar
+  115  clear
+  116  cd ~
+  117  ls
+  118  cd git_myself/
+  119  git init
+  120  git config --list
+  121  which git  config
+  122  git init
+  123  ls
+  124  ll
+  125  history 50
+  126  history 50 | more
+  127  touch a.c
+  128  cat a.c
+  129  cat > a.c
+  130  ls
+  131  git status
+  132  git add a.c
+  133  git status
+  134  git chickout a.c
+  135  git status
+  136  git checkout a.c
+  137  git status
+  138  git reset a.c
+  139  git status
+  140  git checkout a.c
+  141  git add a.c
+  142  git stats
+  143  git status
+  144  git clone https://github.com/dh-chandu/training.git
+  145  ls
+  146  rm -r training/
+  147  rm -f training/
+  148  git rm -f training/
+  149  ls
+  150  git rm -r training/
+  151  ls
+  152  cd t
+  153  cd training/
+  154  ls
+  155  ll
+  156  cd ..
+  157  ls
+  158  git clone https://github.com/dh-chandu/training.git Swammy
+  159  ls
+  160  cd Swammy/
+  161  ls
+  162  get status
+  163  git status
+  164  echo hai raja arama
+  165  echo hai raja arama > raju
+  166  git status
+  167  git add raju
+  168  git status
+  169  get reset HEAD
+  170  git reset HEAD
+  171  git status
+  172  touch contributer.md
+  173  ls
+  174  git add .
+  175  git status
+  176  cat > contributer.md 
+  177  git status
+  178  git add contributer.md 
+  179  git status
+  180  git status -s
+  181  cat >> contributer.md 
+  182  git status
+  183  cat contributer.md 
+  184  git checkout contributer.md
+  185  cat contributer.md 
+  186  cat >> love babi
+  187  cat >> contributer.md 
+  188  git status
+  189  ls
+  190  git add .
+  191  git status
+  192  git status -s
+  193  cat >> contributer.md 
+  194  ls
+  195  git status -s
+  196  cat >> contributer.md 
+  197  git status -s
+  198  touch licence.txt
+  199  ls
+  200  git status -s
+  201  touch on
+  202  ls
+  203  git status -s
+  204  cat >> on
+  205  git status -s
+  206  git add on 
+  207  git status -s
+  208  git commit -m " Add a new files"
+  209  git status
+  210  git add .
+  211  git status -s
+  212  cat >> contributer.md 
+  213  git commit -m " Add a new one files"
+  214  git status -s
+  215  cat .gitignore
+  216  git diff
+  217  ls
+  218  git log -p
+  219  clear
+  220  git commit -m " modified"
+  221  git add .
+  222  git commit -m " modified"
+  223  git diff --staged
+  224  git status
+  225  git iog --pretty=oneline
+  226  git log --pretty=oneline
+  227  git log --pretty=oneline | more
+  228  git log --pretty=oneline | grep more
+  229  git log --pretty=format:"%h - %an, %ar : %s"
+  230  git log --pretty=format: "%h : %an, %ar : %s"
+  231  git log --pretty=format:"%h : %an, %ar : %s"
+  232  git log -n2
+  233  git log -n3
+  234  git log -n1
+  235  git log -n2
+  236  git log -n3
+  237  git log --since=2.weeks
+  238  git diff -staged
+  239  git diff --staged
+  240  cat >> contributer.md 
+  241  git add .
+  242  git diff 
+  243  git diff --staged
+  244  git reset HEAD 
+  245  cat contributer.md 
+  246  git checkout contributer.md
+  247  cat contributer.md 
+  248  git reset HEAD
+  249  git status
+  250  git remote
+  251  git remote -v
+  252  git remote pb paul
+  253  git remote rename pb paul
+  254  git remote rename Rani paul
+  255  git remote rename source paul
+  256  ls
+  257  git remote rename love paul
+  258  git tag
+  259  ls
+  260  cd Git\ Trining/
+  261  ls
+  262  git init
+  263  ls
+  264  ll
+  265  cd .git/
+  266  ls
+  267  ll
+  268  cat config 
+  269  ll
+  270  cd ..
+  271  ls
+  272  cd training/
+  273  ll
+  274  cd .git
+  275  ll
+  276  cat config 
+  277  cd ../..
+  278  ls
+  279  ll
+  280  git rm .git/
+  281  ll
+  282  git rm .git/
+  283  git rm -r .git/
+  284  git rm -f .git/
+  285  l
+  286  ll
+  287  git reset HEAD
+  288  git reset HEAD .git
+  289  cd training/
+  290  ll
+  291  mkdir radha
+  292  ll
+  293  cd radha/
+  294  ll
+  295  git init
+  296  ll
+  297  touch radha1
+  298  cat > radha1 
+  299  git diff radha1
+  300  git status
+  301  git add radha1 
+  302  git status
+  303  git reset HEAD radha1
+  304  man HEAD
+  305  man reset
+  306  history 100 | more
+  307  git reset HEAD
+  308  ll
+  309  git status
+  310  git diff
+  311  cat >> radha1 
+  312  git diff radha1
+  313  git diff
+  314  git status
+  315  git remote -v
+  316  git --version
+  317  git remote --globle --list
+  318  git remote --global --list
+  319  git --global --list
+  320  git config --global --list
+  321  git config --global user.email "manjudhv@gmai.com"
+  322  git config --global user.name "manjudhv1"
+  323  git config --global --list
+  324  git config --global user.email "manjudhv@gmail.com"
+  325  git config --global --list
+  326  git push
+  327  ll
+  328  cat .git/
+  329  cd .git/
+  330  ll
+  331  cat config 
+  332  cat HEAD
+  333  cd ..
+  334  ls
+  335  git status
+  336  git commit -a -m "modified a file" 
+  337  git status
+  338  git diff --staged
+  339  git log
+  340  git log --oneline
+  341  cd ..
+  342  cd ~
+  343  ls
+  344  cd /
+  345  ls
+  346  cd etc/
+  347  ls
+  348  ls | grep g*
+  349  cd /home/
+  350  ls
+  351  cd manju/
+  352  ls
+  353  cd Git\ Trining/
+  354  ls
+  355  cd training/
+  356  ls
+  357  cd radha/
+  358  ls
+  359  ll
+  360  cd ..
+  361  cd source/
+  362  ll
+  363  cd ..
+  364  ls
+  365  cd radha/
+  366  ll
+  367  cd ..
+  368  ll
+  369  cd .git/
+  370  ll
+  371  cat config 
+  372  cd ..
+  373  ls
+  374  gitk
+  375  sudo apt installgitk
+  376  sudo apt install gitk
+  377  gitk
+  378  gitg
+  379  sudo apt install gitg
+  380  gitg
+  381  gitk
+  382  exit
+  383  exir
+  384  exit
+  385  quit
+  386  exit
+  387  quit
+  388  exit
+  389  cd Git\ Trining/
+  390  l
+  391  cd My-new-project/
+  392  ls
+  393  touch tt
+  394  cat >> tt
+  395  git add .
+  396  git commit -m "new file tt"
+  397  git push
+  398  git pull
+  399  git push
+  400  gitk
+  401  touch mm
+  402  git commit -a -m "new file"
+  403  git add .
+  404  git commit -m "new file"
+  405  git push
+  406  gitk
+  407  sudo su chandu
+  408  git status
+  409  git checkout masteer
+  410  git checkout master
+  411  git log 
+  412  git status
+  413  git pull 
+  414  mv raja jj
+  415  git pull 
+  416  git push 
+  417  manjudhv1
+  418  git push 
+  419  git pull 
+  420  git checkout -b bug1
+  421  ll
+  422  echo cdh >> tt
+  423  git st
+  424  git status
+  425  git add tt
+  426  git commit -m "modified tt by cdh"
+  427  git status
+  428  git push 
+  429  git branch -a
+  430  git push --set-upstream origin bug1
+  431  su chandu
+  432  git branch -a
+  433  git  remote 
+  434  git  remote -v
+  435  git push --set-upstream origin Testing iss53
+  436  git branch
+  437  git status
+  438  git log 
+  439  git status
+  440  ll
+  441  git branch
+  442  git pull 
+  443  git checckout Testing
+  444  git checkout Testing
+  445  ll
+  446  git merge master
+  447  ll
+  448  echo on branch testing committed by cdh >>tt
+  449  cat tt
+  450  cat cdh
+  451  git checkout bug1
+  452  git reset tt
+  453  git checkout bug1
+  454  git checkout tt
+  455  git checkout bug1
+  456  cat tt
+  457  git checkout testing
+  458  git checkout Testing
+  459  cat tt
+  460  git status
+  461  git log 
+  462  git checkout master
+  463  cat tt
+  464  git pull 
+  465  cat tt
+  466  git checkout Testing 
+  467  cat tt
+  468  git push 
+  469  cat tt 
+  470  git branch
+  471  git merge master
+  472  cat tt 
+  473  history >history
+  474  ll
+  475  cat history 
+  476  cat history
+  477  git branch
+  478  git branch history
+  479  git branch
+  480  git checkout history 
+  481  ls
+  482  rm c*
+  483  ls
+  484  rm h*
+  485  ls
+  486  rm inde*
+  487  rmj*
+  488  rm j*
+  489  rm R*
+  490  ls
+  491  rmr*
+  492  rm r*
+  493  ls
+  494  rm t*
+  495  ls
+  496  git checkout Testing 
+  497  ls
+  498  git reset HEAD
+  499  ls
+  500  git checkout 
+  501  gitg
+  502  history | more
+  503  history tail - 100
+  504  history tail-100
+  505  history
+  506  ls
+  507  git branch
+  508  git checkout history 
+  509  git reset HEAD
+  510  git status
+  511  git add .
+  512  git status
+  513  git reset HEAD
+  514  git checkout 
+  515  git reset .
+  516  ls
+  517  git status
+  518  git checkout R*
+  519  ls
+  520  git checkout [a-z]*
+  521  ls
+  522  git checkout r*
+  523  git checkout h*
+  524  git checkout i*
+  525  git checkout j*
+  526  git checkout t*
+  527  git checkout c*
+  528  s
+  529  ls
+  530  git checkout Testing 
+  531  ls
+  532  git branch rm history 
+  533  git branch
+  534  git checkout rm
+  535  ls
+  536  mkdir radha
+  537  gi mv {a-z,A-Z}* radha
+  538  git mv {a-z,A-Z}* radha
+  539  ls
+  540  git marge rm Teating
+  541  git merge rm Teating
+  542  git branch
+  543  git checkout Testing 
+  544  git merge rr
+  545  git branch -d rr
+  546  git branch
+  547  git branch -d rm
+  548  git branch -d history 
+  549  git branch
+  550  git branch History
+  551  ls
+  552  git branch
+  553  git checkour 
+  554  git checkout History 
+  555  ls
+  556  rm .
+  557  rm [a-z]*
+  558  ls
+  559  rmdir r
+  560  rmdir radha/
+  561  history > History
